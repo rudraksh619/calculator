@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.container{
+    border:5px solid rgb(135, 222, 216);
+    border-radius: 10%;
+    background-color:black;
+display:grid;
+
+height: 30%;
+width:20%;
+gap:5px;
+grid-template-rows:  repeat(5,1fr);
+grid-template-columns:  repeat(4,1fr);
+position:absolute;
+top:200px;
+left:450px;
+
+}
+.item{
+    border: 3px solid blanchedalmond;
+    /* border-right: 3px solid blanchedalmond; */
+    border-radius: 50%;
+    font-size: 25px;
+    color:aqua;
+    margin-left: 10px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
